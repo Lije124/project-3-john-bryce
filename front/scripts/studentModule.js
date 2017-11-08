@@ -39,7 +39,7 @@ var studentModule = function() {
                const num= 'student'+request[i].Student_id;//element id
 
                s = s.replace("{{studentid}}",request[i].student_id);
-               s = s.replace("{{imgsrc}}","/School/images/" + request[i].student_image);
+               s = s.replace("{{imgsrc}}","images/" + request[i].student_image);
                s = s.replace("{{studentName}}",request[i].student_name);
                s = s.replace("{{studentPhone}}",request[i].student_phone);
 
@@ -51,7 +51,7 @@ var studentModule = function() {
       function sendImagetoServer(data,calltype){
           $.ajax({
               dataType:'text',//what to expect back from PHP script, if anything
-              url:'/School/back/api/api.php',// point to image upload file in server
+              url:'back/api/api.php',// point to image upload file in server
               cache: false,
               cotentType:false,
               processData: false,
@@ -71,7 +71,7 @@ var studentModule = function() {
 
     var StudentCtrl=function(){
         let studentApiMethod= "student";
-        let apiUrl= "/School/back/api/api.php";
+        let apiUrl= "back/api/api.php";
         var data ={
             ctrl:studentApiMethod
         };

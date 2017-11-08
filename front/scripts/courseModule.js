@@ -39,7 +39,7 @@ var courseModule = function() {
                const num= 'course'+request[i].Course_id;//element id
 
                c = c.replace("{{courseid}}",request[i].course_id);
-               c = c.replace("{{imgsrc}}","/School/images/" + request[i].course_image);
+               c = c.replace("{{imgsrc}}","images/" + request[i].course_image);
                c = c.replace("{{courseName}}",request[i].course_name);
                c = c.replace("{{courseDescription}}",request[i].course_description);
 
@@ -51,7 +51,7 @@ var courseModule = function() {
       function sendImagetoServer(data,calltype){
           $.ajax({
               dataType:'text',//what to expect back from PHP script, if anything
-              url:'/School/back/api/api.php',// point to image upload file in server
+              url:'back/api/api.php',// point to image upload file in server
               cache: false,
               cotentType:false,
               processData: false,
