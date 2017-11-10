@@ -8,7 +8,7 @@ var courseModule = function() {
                             console.log(data);
                         });
                     },
-                    getStudent: function(id) {
+                    getCourse: function(id) {
                         var data = {
                             ctrl: courseApiMethod
                         };

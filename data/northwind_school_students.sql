@@ -38,7 +38,7 @@ CREATE TABLE `school_students` (
 
 LOCK TABLES `school_students` WRITE;
 /*!40000 ALTER TABLE `school_students` DISABLE KEYS */;
-INSERT INTO `school_students` VALUES (1,'Shaina Carlebach','050-943-0003','schiffs@aisj.co.il','girl2.jpg'),(2,'Lee Ling','054-265-4879','lingl@aisj.co.il','girl.jpg'),(3,'Josh Blake ','050-456-7890','blakej@aisj.co.il','boy1.jpg'),(4,'Nat Kay','054-739-2200','kayn@aisj.co.il','boy2.jpg');
+INSERT INTO `school_students` VALUES (1,'Shaina Carlebach','050-943-0003','schiffs@aisj.co.il','student1.jpg'),(2,'Lee Ling','054-265-4879','lingl@aisj.co.il','student3.jpg'),(3,'Josh Blake ','050-456-7890','blakej@aisj.co.il','student2.jpg'),(4,'Nat Kay','054-739-2200','kayn@aisj.co.il','student4.jpg');
 /*!40000 ALTER TABLE `school_students` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-11-08 12:53:54
+-- Dump completed on 2017-11-09 10:48:21

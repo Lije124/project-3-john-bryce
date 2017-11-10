@@ -19,8 +19,7 @@
 </head>
 
 <body>
-  <header>
-    <!-- Navigation -->
+      <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -49,26 +48,35 @@
         </div>
       </div>
     </nav>
-    <!-- Page Content -->
+
+    
+ 
+<header class ="masthead">
+  <div class="overlay">
+      <div class="container" id="schoolHeader">
+        <img src="images/codeSchoolHeader.png">
+            </div>
+  </div>
   </header>
 
-  
-    <!-- school empty container to fill with a template -->
+
+<!--page content-->
+         <!-- school empty container to fill with  templates -->
     <main class="mainscreen gray">
       <div class="container school-body">
         <div class="row">
           <div class="col-md-3 order-3">
             <div class="flex-container">
               <h5 class="flex-item1">Courses List:</h5>
-              <button class="flex-item2"><h3>+</h3></button>
+              <button class="flex-item2"><h2>+</h2></button>
             </div>
-            <div id="course" class="allCourses"></div>
+            <div id="Courses"></div>
           </div>
 
           <div class="col-md-3 order-3 ">
             <div class="flex-container">
               <h5 class="flex-item1">Student List:</h5>
-              <button class="flex-item2"><h3>+</h3></button>
+              <button class="flex-item2"><h2>+</h2></button>
             </div>
             <div id="Students"></div>
           </div>
@@ -83,11 +91,12 @@
   <script src="front/styles/vendor/jquery/jquery.min.js"></script>
   <script src="front/styles/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="front/scripts/studentModule.js"></script>
+  <script src="front/scripts/courseModule.js"></script>
         <script>
             var s = studentModule();
-
-            s.getStudent();
-            
+               s.getStudent();
+            var c= courseModule();
+            c.getCourse();       
         </script>
    
 </body>

@@ -31,8 +31,7 @@ var studentModule = function() {
            let request =JSON.parse(result); 
 
            $('#Students').html("");
-         //put total amount of students here
-           //$('#total')  
+         
        $.ajax('front/viewTemplates/studentTemplate.html').always(function(studentTemplate){
            for(let i=0;i<request.length;i++){
                var s = studentTemplate;
@@ -61,23 +60,117 @@ var studentModule = function() {
 
           });
       }               
-/*
-    function createStudent(data){
-        this.name = data.name;
-        this.phone = data.phone;
-        this.email =data.email;
-        this.image=data.image; 
-    }            
-
-    var StudentCtrl=function(){
-        let studentApiMethod= "student";
-        let apiUrl= "back/api/api.php";
-        var data ={
-            ctrl:studentApiMethod
-        };
-        let send;
- 
- function     
 
 
-    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

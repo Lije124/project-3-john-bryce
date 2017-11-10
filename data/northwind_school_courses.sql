@@ -30,6 +30,16 @@ CREATE TABLE `school_courses` (
   PRIMARY KEY (`course_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `school_courses`
+--
+
+LOCK TABLES `school_courses` WRITE;
+/*!40000 ALTER TABLE `school_courses` DISABLE KEYS */;
+INSERT INTO `school_courses` VALUES (1,'HTML5','Hyper Text Markup Langauage that provides web developers with a simpler standard that includes sever','html.png'),(2,'CSS','Stands for \"Cascading Style Sheet.\" Cascading style sheets are used to format the layout of Web page','css.png'),(3,'JAVASCRIPT','JavaScript is a programming language commonly used in web development.','javascript.jpg'),(4,'ANGULAR','Angular is a platform that makes it easy to build applications with the web. ','angular.png'),(5,'BOOTSTRAP','Build responsive, mobile-first projects on the web with the world\'s most popular front-end component','bootstrap.jpg');
+/*!40000 ALTER TABLE `school_courses` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -40,4 +50,4 @@ CREATE TABLE `school_courses` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-11-01 13:52:58
+-- Dump completed on 2017-11-09 14:11:16

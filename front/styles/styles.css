@@ -6,8 +6,6 @@ html {
    position: relative;
   min-height: 100%; }
 
-body {
-  overflow-x: hidden; }
 
 body.sticky-footer {
   margin-bottom: 56px; }
@@ -42,8 +40,6 @@ body.fixed-nav {
 .smaller {
   font-size: 0.7rem; }
 
-.o-hidden {
-  overflow: hidden !important; }
 
 .z-0 {
   z-index: 0; }
@@ -207,7 +203,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
   -ms-filter: 'FlipH'; }
 
 .content-wrapper {
-  overflow-x: hidden;
+  
   background: white; }
   @media (min-width: 992px) {
     .content-wrapper {
